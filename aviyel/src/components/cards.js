@@ -17,6 +17,9 @@ const CardCollection = () => {
     </>
   );
 };
+
+
+
 const Card = ({ image, title, name, desc, flag }) => {
   return (
     <>

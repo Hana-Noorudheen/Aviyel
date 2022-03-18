@@ -1,6 +1,3 @@
-// import { countries } from "country-flags-svg";
-
-// const australia = countries[1];
 import { findFlagUrlByNationality } from "country-flags-svg";
 
 const flagUrl = findFlagUrlByNationality("Indian");
