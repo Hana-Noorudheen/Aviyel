@@ -1,11 +1,11 @@
 
 import './App.css';
-import Card from './components/cards';
+import CardCollection from './components/cards';
 
 function App() {
   return (
     <div>
-      <Card />
+      <CardCollection />
 
     </div>
   );
