@@ -1,8 +1,14 @@
 .card{
-height: 180.99996948242188px;
-width: 410.0688171386719px;
-left: 146px;
-top: 778px;
-border-radius: 23.144262313842773px;
+display: flex;
 
+
+}
+.card-image img{
+    height: 120.28379821777344px;
+    width: 120.28379821777344px;
+    border-radius: 50%;
+    border: 3.34px solid #8661D1
+}
+.card-content{
+    width: 60%;
 }
