@@ -1,9 +1,9 @@
 import { findFlagUrlByNationality } from "country-flags-svg";
-
+import vaibhav from "../assets/images/vaibhav.png";
 const flagUrl = findFlagUrlByNationality("Indian");
 export const Data = [
   {
-    pic: "https://picsum.photos/200/300",
+    pic: vaibhav,
     flag: flagUrl,
     Name: "Vaibhav Agarwal",
     title: "Full Stack Developer",

@@ -36,7 +36,9 @@ const Card = ({ image, title, name, desc, flag }) => {
           <div className="card-button">
             <span className="b1">
               <img src={b1} alt="" />
-              <a link href="#">Contribution link</a>
+              <a link href="#">
+                Contribution link
+              </a>
             </span>
 
             <span className="b1">
