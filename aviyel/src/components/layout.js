@@ -11,7 +11,10 @@ const Layout = () => {
 
     <div className="first-heading">
 
+<a href="https://aviyel.com/">
 <img className="logo-image" src={logo} alt=""/>
+</a>
+
 
 
 </div>
