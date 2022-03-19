@@ -6,35 +6,28 @@ import line from "../assets/images/line.png";
 const Layout = () => {
   return (
     <>
-    <div className="wrapper">
+      <div className="wrapper">
         <img className="bg" src={bgimg} alt="logo" />
 
-    <div className="first-heading">
+        <div className="first-heading">
+          <a href="https://aviyel.com/">
+            <img className="logo-image" src={logo} alt="" />
+          </a>
+        </div>
 
-<a href="https://aviyel.com/">
-<img className="logo-image" src={logo} alt=""/>
-</a>
+        <div className="second-heading">
+          <h1>Wall of Fame</h1>
+        </div>
 
-
-
-</div>
-
-< div className="second-heading" >
-<h1>Wall of Fame</h1>
-</div>
-
-<div className="third-heading" >
-<p>Featuring contributions by the Aviyel Community!</p>
-</div>
-<div className="line-image">
-<img  src={line} alt=""/>
-</div>
-</div>
-     
-
+        <div className="third-heading">
+          <p>Featuring contributions by the Aviyel Community!</p>
+        </div>
+        <div className="line-image">
+          <img src={line} alt="" />
+        </div>
+      </div>
     </>
   );
 };
-
 
 export default Layout;
