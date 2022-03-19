@@ -1,5 +1,7 @@
 import "./cards.css";
 import { Data } from "./data";
+import b1 from "../assets/images/b1.svg";
+import b2 from "../assets/images/b2.svg";
 const CardCollection = () => {
   return (
     <>
@@ -18,8 +20,6 @@ const CardCollection = () => {
   );
 };
 
-
-
 const Card = ({ image, title, name, desc, flag }) => {
   return (
     <>
@@ -29,12 +29,20 @@ const Card = ({ image, title, name, desc, flag }) => {
           <img className="sub-image" src={flag} alt="" />
         </div>
         <div className="card-content">
-          <h2>{name}</h2>
+          <h3>{name}</h3>
           <h4>{title}</h4>
           <p>{desc}</p>
+
           <div className="card-button">
-            <button>Contribution link</button>
-            <button>Social Connect</button>
+            <span className="b1">
+              <img src={b1} alt="" />
+              <a link href="#">Contribution link</a>
+            </span>
+
+            <span className="b1">
+              <img src={b2} alt="" />
+              <a href="#">Social Connect</a>
+            </span>
           </div>
         </div>
       </div>
