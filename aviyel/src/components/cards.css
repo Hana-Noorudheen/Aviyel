@@ -226,7 +226,9 @@ a{
       .b1 {
         font-size: 6.5px;
         }
-      
+      .card{
+        padding: 35px 10px;
+      }
      
       }
 
