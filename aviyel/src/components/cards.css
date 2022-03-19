@@ -170,5 +170,68 @@ a{
   }
 
 }
+
+@media screen and (max-width: 634px) {
+  .parent {
+    grid-template-columns: repeat(1, 1fr);
+    margin:0 auto;
+  }
+  .card{
+    flex-direction: column;
+    align-items: center;
+  }
+  .b1{
+    font-size: 7px;
+  }
+
+}
   
+
+@media screen and (max-width: 619px) {
+  .parent {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .card-content h3 {
+    font-size: 15px;
+    }
+  
+  .card-content h4{
+
+    font-size: 12px;
+    }
+
+    .b1{
+      font-size: 7px;
+    }
+  }
+
+  @media screen and (max-width: 616px) {
+    .parent {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .card-content h3 {
+      font-size: 13px;
+      }
+    
+   
+    }
+  
+    @media screen and (max-width: 605px) {
+      .parent {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    
+      .b1 {
+        font-size: 6.5px;
+        }
+      
+     
+      }
+
+  
+
+
+
 
