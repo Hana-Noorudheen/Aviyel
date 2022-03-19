@@ -1,5 +1,5 @@
 import { findFlagUrlByNationality } from "country-flags-svg";
-import vaibhav from "../assets/images/vaibhav.png";
+import vaibhav from "../assets/images/vaibhav.jpeg";
 const flagUrl = findFlagUrlByNationality("Indian");
 export const Data = [
   {
