@@ -42,6 +42,17 @@
 font-style: normal;
 font-weight: 500;
 font-size: 13px;
+
+}
+
+.card-content p{
+ 
+  overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;
+   color:#A49696
 }
 .card-content h3 {
 margin:12px;
@@ -61,7 +72,7 @@ margin-bottom: 6px;
 
 .card-button {
   display: flex;
-  padding: 5px;
+  padding: 1px;
   width: 100%;
   text-decoration: none;
 }
@@ -92,6 +103,7 @@ justify-content: space-around;
   height: 11px;
   
 }
+
 a{
   text-decoration: none;
   color: #8661d1;
