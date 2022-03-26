@@ -26,7 +26,7 @@ const Card = ({ image, title, name, desc, flag }) => {
       <div className="card">
         <div className="image">
           <img className="card-image" src={image} alt="" />
-          <img className="sub-image" src={flag} alt="" />
+          <img className="sub-image" src={flag}  alt="" />
         </div>
         <div className="card-content">
           <h3>{name}</h3>
