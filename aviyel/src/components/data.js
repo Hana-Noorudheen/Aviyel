@@ -36,25 +36,5 @@ export const Data = [
     title: "Btech Student",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit",
   },
-  {
-    pic: "https://picsum.photos/200/300",
-    flag: flagUrl,
-    Name: "Vaibhav Agarwal",
-    title: "Full Stack Developer",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-  },
-  {
-    pic: "https://picsum.photos/200/300",
-    flag: flagUrl,
-    Name: "Vaibhav Agarwal",
-    title: "Full Stack Developer",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-  },
-  {
-    pic: "https://picsum.photos/200/300",
-    flag: flagUrl,
-    Name: "Vaibhav Agarwal",
-    title: "Full Stack Developer",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-  },
+
 ];
