@@ -3,14 +3,15 @@
 
 .wrapper {
     position: relative;
-    height: 100vh;
+    margin-bottom: 10rem;
 }
 
 .bg {
     position: absolute;
     width: 100%;
     z-index: -1000;
-    height: 100vh;
+    height: 55vh;
+    object-fit: cover;
 }
 
 .first-heading {
@@ -52,7 +53,7 @@
     letter-spacing: 0em;
     text-align: center;
     color: #8661D1;
-    margin-top: -4%
+    
 }
 
 .third-heading {
@@ -63,14 +64,13 @@
     font-weight: 500;
     font-size: 25px;
 
-    margin-top: -5%
 }
 
 .line-image {
 
     text-align: center;
     width: 50%;
-    margin: -1% auto 0 auto;
+    margin: 0 auto 0 auto;
 
 }
 
@@ -79,6 +79,19 @@
     height: 100%;
 }
 
+@media screen and (max-width: 2000px) {
+    .bg {
+
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 1422px) {
+    .bg {
+
+        height:45vh;
+    }
+}
 
 @media screen and (max-width: 1340px) {
     .b1 {
@@ -94,6 +107,10 @@
     a img {
         width: 80%;
 
+    }
+    .bg {
+
+        height:40vh;
     }
 
     .second-heading {
@@ -142,15 +159,9 @@
 
 @media screen and (max-width: 800px) {
 
-    .wrapper {
+ 
 
-        height: 80vh;
-    }
-
-    .bg {
-        height: 80vh;
-    }
-
+  
     a img {
         width: 72%;
 
@@ -164,13 +175,13 @@
 
 @media screen and (max-width: 650px) {
 
-    .wrapper {
+    a img {
+        width: 70%;
 
-        height: 60vh;
     }
 
     .bg {
-        height: 60vh;
+        height: 30vh;
     }
 
     a img {
@@ -195,13 +206,13 @@
 
 @media screen and (max-width: 550px) {
 
-    .wrapper {
+    a img {
+        width: 50%;
 
-        height: 40vh;
     }
 
     .bg {
-        height: 40vh;
+        height: 25vh;
     }
 
     a img {

@@ -7,7 +7,7 @@ const Layout = () => {
   return (
     <>
       <div className="wrapper">
-        <img className="bg" src={bgimg} alt="logo" />
+        {/* <img className="bg" src={bgimg} alt="logo" /> */}
 
         <div className="first-heading">
           <a href="https://aviyel.com/">
