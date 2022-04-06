@@ -50,6 +50,13 @@ font-size: 13px;
 
 }
 
+.card-content h3{ 
+  margin:3px 0;
+}
+
+.card-content h4{ 
+  margin:3px 0;
+}
 .card-content p{
  
   overflow: hidden;
@@ -82,8 +89,12 @@ margin-bottom:-5px;
   text-decoration: none;
 }
 
+.card-button a{
+  margin-right: 5px;
+}
+
 .b1 {
- 
+ padding:0 5px;
 font-size: 10px;
 border: 0.854889px solid #8661D1;
 box-sizing: border-box;

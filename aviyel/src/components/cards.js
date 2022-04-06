@@ -49,7 +49,7 @@ const Card = ({ image, title, name, desc, flag,socialMediaURL,contributionsURL }
             < a href={socialMediaURL} target="_blank"> 
             <span className="b1">
               <img src={b2} alt="" />
-              Social Connect
+              Socials
             </span></a>
           </div>
         </div>
