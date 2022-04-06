@@ -38,17 +38,19 @@ const Card = ({ image, title, name, desc, flag,socialMediaURL,contributionsURL }
           <p>{desc}</p>
 
           <div className="card-button">
+          <a link href={contributionsURL} target="_blank">
             <span className="b1">
               <img src={b1} alt="" />
-              <a link href={contributionsURL}>
-                Contribution
-              </a>
+              Contribution
+              
             </span>
+            </a>
 
+            < a href={socialMediaURL} target="_blank"> 
             <span className="b1">
               <img src={b2} alt="" />
-              <a href={socialMediaURL}>Social Connect</a>
-            </span>
+              Social Connect
+            </span></a>
           </div>
         </div>
       </div>
