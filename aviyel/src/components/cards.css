@@ -2,7 +2,7 @@
 .parent {
   display: grid;
   width: 95%;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   margin: 0 auto;
   grid-column-gap: 1%;
   grid-row-gap: 4%;
@@ -46,7 +46,7 @@
   font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
-font-size: 13px;
+font-size: 16px;
 
 }
 
