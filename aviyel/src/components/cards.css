@@ -42,7 +42,6 @@
 
 .card-content {
   width: 80%;
-  padding-left: 5%;
   font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
@@ -59,21 +58,21 @@ font-size: 13px;
    -webkit-box-orient: vertical;
    color:#A49696
 }
-.card-content h3 {
+/* .card-content h3 {
 margin:12px;
 margin-bottom: 6px;
-}
+} */
 
-.card-content h4{
+/* .card-content h4{
   margin:12px;
   margin-top:6px;
   margin-bottom: 6px;
-  }
+  } */
 
-  .card-content p{
+  /* .card-content p{
     margin:6px;
     
-  } 
+  }  */
 
 .card-button {
   display: flex;
@@ -172,6 +171,9 @@ a{
    
     grid-column-gap: 3%;
     grid-row-gap: 4%;
+  }
+  .card{
+    text-align: center;
   }
 
 }
